@@ -4,4 +4,10 @@ foo<-function(x,y){
   return(z/q)
 }
 
-foo(5,6)
+for (i in 1:20){
+  if (i<10){
+    next
+  }
+  i=i+1
+  print(i)
+}
